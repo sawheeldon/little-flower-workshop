@@ -31,17 +31,18 @@ html,
 body {
     height: 100%;
     font-family: 'Chewy', cursive;
-    font-size:15px;
+    font-size: 15px;
+    background-color: #c9c0bb;
 }
 
 .my-nav {
-    background-color: #FF8AD1;
+    background-color: #FFB6C1;
 }
 
 .page-wrap {
     min-height: 100%;
     /* equal to footer height */
-    margin-bottom: -120px;
+    margin-bottom: -110px;
 }
 
 .page-wrap:after {
@@ -49,20 +50,21 @@ body {
     display: block;
 }
 
-.my-jumbo{
-    padding-top:6rem;
+.my-jumbo {
+    padding-top: 6rem;
     font-family: 'Chewy', cursive;
 }
+
 footer,
 .page-wrap:after {
     /* .push must be the same height as footer */
-    height: 120px;
+    height: 110px;
 }
 
 footer {
-    background-color: #FF8AD1;
+    background-color: #FFB6C1;
     padding-top: 20px;
-    height: 120px;
+    height: 110px;
 }
 
 
