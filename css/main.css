@@ -30,6 +30,8 @@ General styles (General Module, wrapping around the modules bellow)
 html,
 body {
     height: 100%;
+    font-family: 'Chewy', cursive;
+    font-size:15px;
 }
 
 .my-nav {
@@ -47,6 +49,10 @@ body {
     display: block;
 }
 
+.my-jumbo{
+    padding-top:6rem;
+    font-family: 'Chewy', cursive;
+}
 footer,
 .page-wrap:after {
     /* .push must be the same height as footer */
